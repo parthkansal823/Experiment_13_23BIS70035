@@ -30,6 +30,16 @@ npm install express mongoose
 node index.js
 ```
 
+## API Endpoints
+
+| Method | Endpoint         | Description               |
+|--------|-----------------|----------------------------|
+| GET    | /products       | Get all products           |
+| GET    | /products/:id   | Get a single product by ID |
+| POST   | /products       | Add a new product          |
+| PUT    | /products/:id   | Update a product by ID     |
+| DELETE | /products/:id   | Delete a product by ID     |
+
 ## CODE
 ### Product.js
 ``` Product.js
@@ -44,7 +54,6 @@ const productSchema = new mongoose.Schema({
 module.exports = mongoose.model('Product', productSchema);
 
 ```
-
 ### index.js
 ``` index.js
 const express = require('express');
@@ -84,3 +93,4 @@ app.delete('/products/:id', async (req, res) => {
 
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
 ```
+
