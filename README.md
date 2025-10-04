@@ -130,3 +130,7 @@ Request:
 DELETE http://localhost:3000/products/<product_id>
 ```
 ![GET ALL PRODUCTS](res5.png)
+
+<p align="center">
+    ## MADE by PARTH KANSAL 23BIS70035
+</p>
