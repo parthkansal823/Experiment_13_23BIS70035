@@ -41,6 +41,7 @@ node index.js
 | DELETE | /products/:id   | Delete a product by ID     |
 
 ## CODE
+[EXPERIMENT ZIP FILE](CRUD_Operations.zip)
 ### Product.js
 ``` Product.js
 const mongoose = require('mongoose');
