@@ -100,7 +100,6 @@ Request:
 ```
 GET http://localhost:3000/products
 ```
-Response:
 ![GET ALL PRODUCTS](res1.png)
 
 ### 2. GET Single Product
@@ -108,7 +107,6 @@ Request:
 ```
 GET http://localhost:3000/products/<product_id>
 ```
-Response:
 ![GET ALL PRODUCTS](res2.png)
 
 ### 3. POST - Add New Product
@@ -116,7 +114,6 @@ Request:
 ```
 POST http://localhost:3000/products
 ```
-Response:
 ![GET ALL PRODUCTS](res3.png)
 
 ### 4. PUT - Update Product
@@ -124,7 +121,6 @@ Request:
 ```
 PUT http://localhost:3000/products/<product_id>
 ```
-Response:
 ![GET ALL PRODUCTS](res4.png)
 
 ### 5. DELETE Product
@@ -132,5 +128,4 @@ Request:
 ```
 DELETE http://localhost:3000/products/<product_id>
 ```
-Response:
 ![GET ALL PRODUCTS](res5.png)
